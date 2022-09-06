@@ -7,5 +7,9 @@
     cd stutter_win32_minimal
     mkdir build && cd build
     cmake ..
-    cmake --build .
+    cmake --build . --config Release
+
+## Run
+
+    ./Release/stutter_win32_minimal.exe
 
